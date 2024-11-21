@@ -121,7 +121,7 @@ spec:
     name: linux_host
     associations:
       - kind: Label
-        name: linux-system-template
+        name: <script>alert(1)</script>
     language: flux
     query: |-
         import "influxdata/influxdb/v1"
